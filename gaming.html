@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<style>
+		img{
+			padding-left:2%;
+			padding-right:2%;
+			padding-top:2%;
+		}
+		#alignbtm{
+			position:absolute;
+			bottom:0;
+			left:0;
+			right:0;
+		}
+		#center{
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body class="bgcolour">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./home.html"><span style="color:#087F23; margin-left: 2vw;">LaptopAid</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div style="background-color: #f8f9fa; margin-left: -16px; margin-right: -16px;">
+            <ul class="navbar-nav">
+              <li class="nav-item" style="background-color: #f8f9fa;">
+                <a class="nav-link" href="./laptop.html"><span style="color:#43A047; padding-left: 6vw;">Shop</span></a>
+              </li>
+              <li class="nav-item" style="background-color: #f8f9fa;">
+                <a class="nav-link" href="./contactus.html"><span style="color:#43A047; padding-left: 6vw;">Contact us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+        
+	</br>
+    <h2 style="text-align: center; color: #087F23;">Gaming laptops</h2>
+    <div style="text-align:center;" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')" id="center"> Show all</button>
+  <button class="btn" onclick="filterSelection('budget')" id="center"> Budget </button>
+  <button class="btn" onclick="filterSelection('non')" id="center"> Non-Budget </button>
+	</div>
+<br/>
+	<div class="filterDiv budget">
+	<br/>
+	 <h4 style="text-align: center; color: #43A047;">Budget</h4>
+	<div class="flexbox">
+    <div class="card" style="width: 18rem;">
+		<br/>
+		<img src="./pictures/acernitro5.png" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">Acer Nitro 5</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H,Hexa-core 2.60 GHz, up to 5.00GHz</p>
+			<P class="card-text">Graphics card: Nvidia&reg; GeForce&reg; RTX 2060,6GB GDDR6</p>
+			<p class="card-text">Display: 15.6 inch Full HD (1920 x 1080) 16:9 144Hz refresh rate</p>
+			<p class="card-text">Ram: 16GB DDR4 SDRAM</p>
+			<p class="card-text">Storage: 1TB SSD</p>
+			<p class="card-text">Colour: Black and red with 4-zone RGB keyboard lighting</p>
+			<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $1998</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+		</div>
+	</div>
+	<br/>
+	<div class="card" style="width: 18rem;">
+		<br/>
+		<img src="./pictures/dellg315.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">Dell G3 15 35000 series</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Hexa-core 2.60Hz, up to 5.0 GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; GTX 1650 Ti 4GB GDDR6</p>
+			<p class="card-text">Display: 15.6 inch Full HD (1920 x 1080) 16:9 60Hz</p>
+			<p class="card-text">Ram: 16GB DDR4 SDRAM</P>
+			<p class="card-text">Storage: 512GB SSD</p>
+			<p class="card-text">Colour: Eclipse Black Cover with 4-zone RGB keyboard lighting</p>
+			<P class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $1598.99</P>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm" style="margin-top:-20px;">Buy this laptop</a>
+		</div>
+	</div>
+	<br/>
+
+	<div class="card" style="width: 18rem;">
+		<br/>
+		<img style="padding-left:5%;padding-right:5%;padding-top:7%;padding-bottom: 6px;" src="./pictures/legion y545.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<br>
+			<h5 class="card-title">Lenovo Legion Y540</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 9th Gen Intel&reg; Core&trade; i5-9300H Processor, Quad-core 2.40GHz, up to 4.10GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; GTX1650 4GB GDDR5</p>
+			<p class="card-text">Display: 15.6 inch full HD (1920 x 1080) 16:9 60Hz refresh rate</p>
+			<p class="card-text">Ram: 8GB DDR4</p>
+			<p class="card-text">Storage: 1TB Hard Drive</p>
+			<p class="card-text">Colour: Black with white backlit keyboard.</p>
+			<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $1353</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+	</div>
+	</div>
+
+  <div class="flexbox">
+    <div class="card" style="width: 18rem;">
+		<br/>
+		<img style="padding-top:10%;"src="./pictures/HP pavilion.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">Hp Pavilion 15-dk1043tx</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H,Hexa-core 2.60 GHz, up to 5.0GHz</p>
+			<p class="card-text">Graphics: NVIDIA&reg; GeForce RTX&trade; 2060 6 GB GDDR6</p>
+			<p class="card-text">Display: 15.6 inch full HD (1920 x 1080), 144Hz refresh rate</p>
+			<p class="card-text">Ram: 16GB DDR4 SDRAM</p>
+			<p class="card-text">Storage: 512GB SSD</p>
+			<p class="class-text">Colour: Black with green backlit keyboard</p>
+			<p class="class-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="class-text">Price(SGD): $2099</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      	</div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      	<br/>
+		<img src="./pictures/apex15.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+	  	<div class="card-body">
+			<h5 class="card-title">After Shock Apex 15 lite</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H Processor, Hexa-core 2.60GHz, up to 5.0GHz </p>
+			<P class="card-text">Graphics card: Nvidia&reg; GeForce&reg; RTX 2060 6GB GDDR6</p>
+			<P class="card-text">Display: 15.6 inch Full HD (1920 x 1080) 16:9 120Hz refresh rate</p>
+			<p class="card-text">Ram: 8GB/16GB DDR4 SDRAM</p>
+			<p class="card-text">Storage: 500GB SSD</p>
+			<p class="card-text">Colour: Black with 4-zone RGB keyboard lighting</p>
+			<p class="card-text">Operating system:Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $1475</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      	</div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+		<br/>
+		<img src="./pictures/gf63.png" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">MSI GF63 Thin 10CXR-247SG</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Hexa-core 2.60Hz, up to 5.0 GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; GTX 1650 4GB GDDR5</p>
+			<p class="card-text">Display: 15.6 inch Full HD (1920 x 1080) 16:9 144Hz referesh rate</p>
+			<p class="card-text">Ram: 8GB DDR4 SDRAM</P>
+			<p class="card-text">Storage: 512GB SSD</p>
+			<p class="card-text">Colour: Black with red backlight keyboard lighting</p>
+			<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $1949</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    	</div>	
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+	  
+	<div class="filterDiv non">
+	<br/>
+  <h4 style="text-align: center; color: #43A047;">Non-budget</h4>
+  <div class="flexbox">
+	
+    <div class="card" style="width: 18rem;">
+		<br/>
+		<img src="./pictures/gs66.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">MSI GS66 Stealth 10SF</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-1075H, Hexa-core 2.60GHz, up to 5.1GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; RTX 2070 Max-Q, 8GB GDDR6 </p>
+			<p class="card-text">Display: 17.3 inch Full HD (1920 x 1080) 16:9 240Hz refresh rate</p>
+			<p class="card-text">Ram: 16GB DDR4 SDRAM
+			<p class="card-text">Storage: 1TB SSD
+			<p class="card-text">Colour: Black with per-key RGB backlit keyboard lighting</p>
+			<p class="card-text">Operating system: Windows 10 Home Pro 64 Bit</p>
+			<p class="card-text">Price(SGD): $4149 </p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      	</div>
+    </div>
+
+  	<div class="card" style="width: 18rem;">
+    	<br/>
+		<img src="pictures/g7.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+            <div class="card-body">
+                <h5 class="card-title">Dell G17</h5>
+                <p class="card-text">Specs:</p>
+				<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Hexa-core 2.60GHz, up to 5.0GHz</p>
+				<P class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; RTX 2070 8GB DDR6</p>
+				<p class="card-text">Display: 17.3 inch Full HD (1920 x 1080) 16:9 144Hz refresh rate</p>
+				<p class="card-text">Ram: 16GB DDR4 SDRAM</p>
+				<p class="card-text">Colour: Black with 4-zone RGB backlit keyboard lighting</p>
+				<P class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+				<p class="card-text">Price(SGD): $2999</p>
+                <a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    	</div>
+  	</div>
+  	<div class="card" style="width: 18rem;">
+    	<br/>
+		<img src="./pictures/razerblade 15.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+    	<div class="card-body">
+			<h5 class="card-title">Razer Blade 15</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Hexa-core 2.6GHz, up to 5.0GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GTX 1660ti 6GB GDDR6</p>
+			<p class="card-text">Display: 15.6 inch Full HD(1920 x 1080) 16:9 144Hz refresh rate</p>
+			<p class="card-text">Ram: 16GB DDR4 SDRAM</p>
+			<p class="card-text">Storage: 256/512GB SSD</p>
+			<p class="card-text">Colour: Black with single-zone RGB backlit keyboard lighting</p>
+			<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $2799</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    	</div>
+  	</div>
+        
+  </div>
+	
+	<div class="flexbox">
+    <div class="card" style="width: 18rem;">
+		<br/>
+		<img src="./pictures/gx531.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+		<div class="card-body">
+			<h5 class="card-title">Asus ROG GX53</h5>
+			<p class="card-text">Specs:</p>
+			<p class="card-text">Processor: 9th Gen Intel&reg; Core&trade; i7-9750H, Hexa-core 2.60GHz, up to 4.50GHz</p>
+			<p class="card-text">Graphics card: NVIDIA&reg; GeForce RTX 2070 MAX-Q 8GB GDDR6</p>
+			<p class="card-text">Display: 15.6 inch Full HD(1920 x 1080) 16:9 144/240HZ refresh rate</p>
+			<p class="card-text">Ram: 8GB DDR4 SDRAM</p>
+			<p class="card-text">Storage: 1TB SSD</p>
+			<p class="card-text">Colour: Black with 4-zone RGBB backlit keyboard lighting</p>
+			<p class="card-text">Operating system: Windows 1- Home 64 Bit</p>
+			<p class="card-text">Price(SGD): $3452.88</p>
+			<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+	<br/>
+	<img src="./pictures/m15r3.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+	<div class="card-body">
+	  	<h5 class="card-title">Alienware M15 R3</h5>
+	  	<p class="card-text">Specs:</p>
+		<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Hexa-core 2.60GHz, up to 5.1GHz</p>
+		<p class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; RTX 2070 SUPER&trade; 8GB GDDR6</p>
+		<p class="card-text">Display: 15.6 inch  Full HD (1920 x 1080) 16:9 144Hz refresh rate</p>
+		<p class="card-text">Ram: 16/32GB DDR4 SDRAM</p>
+		<p class="card-text">Storage: 512GB SSD</p>
+		<p class="card-text">Colour: Black and Silver with per-key RGB backlit keyboard lighting</p>
+		<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+		<p class="card-text">Price(SGD): $3798.99</p>
+		<a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+	</div>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+    <br/>
+	<img src="./pictures/triton500.jpg" class="card-img-top" alt="..." style="height:250px; width:auto;">
+    <div class="card-body">
+        <h5 class="card-title">Acer Predator Triton 500</h5>
+        <p class="card-text">Specs:</p>
+		<p class="card-text">Processor: 10th Gen Intel&reg; Core&trade; i7-10750H, Octa-core 2.30GHz, up to 5.3GHz</p>
+		<P class="card-text">Graphics card: NVIDIA&reg; GeForce&reg; RTX 2070 SUPER&trade; 8 GB DDR6</P>
+		<P class="card-text">Display: 15.6 inch Full HD (1920 x 1080) 16:9 300Hz refresh rate</p>
+		<p class="card-text">Ram: 32GB DDR4 SDRAM</p>
+		<p class="card-text">Storage: 1TB SSD</p>
+		<p class="card-text">Colour: Black with per-key RGB backlit keyboard lighting</p>
+		<p class="card-text">Operating system: Windows 10 Home 64 Bit</p>
+		<p class="card-text">Price(SGD): $4098</p>
+        <a href="checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br/>
+  <br/>
+  <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>      
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>     
+
+</body>
+</html>

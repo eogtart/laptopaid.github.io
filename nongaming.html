@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Non-gaming</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<style>
+		.img{
+			padding-left:2%;
+			padding-right:2%;
+			padding-top:2%;
+		}
+		#alignbtm{
+			position:absolute;
+			bottom:0;
+			left:0;
+			right:0;
+		}
+		#center{
+			margin-left:auto;
+			margin-right:auto;
+		}
+	</style>
+</head>
+<body class="bgcolour">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./home.html"><span style="color:#087F23; margin-left: 2vw;">LaptopAid</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div style="background-color: #f8f9fa; margin-left: -16px; margin-right: -16px;">
+        <ul class="navbar-nav">
+          <li class="nav-item" style="background-color: #f8f9fa;">
+            <a class="nav-link" href="./laptop.html"><span style="color:#43A047; padding-left: 6vw;">Shop</span></a>
+          </li>
+          <li class="nav-item" style="background-color: #f8f9fa;">
+            <a class="nav-link" href="./contactus.html"><span style="color:#43A047; padding-left: 6vw;">Contact us</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+     
+    <br>
+
+    <h2 style="text-align: center; color: #087F23;">Work/Studies laptops</h2>
+	<div style="text-align:center;" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')" id="center"> Show all</button>
+  <button class="btn" onclick="filterSelection('budget')" id="center"> Budget </button>
+  <button class="btn" onclick="filterSelection('non')" id="center"> Non-Budget </button>
+  </div>
+  <br/>
+	<div class="filterDiv budget">
+    <br/>
+    <h4 style="text-align: center; color: #43A047;">Budget</h4>
+    <div class="flexbox">
+      <div class="card" style="width: 18rem;">
+	  </br>
+        <img src="./pictures/s3.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+		
+        <div class="card-body">
+		
+        <h5 class="card-title">Acer Swift 3</h5> 
+        <p class="card-text">Specs:</p>
+        <p class="card-text">Processor:Intel®️ Core™️ i7-1065G7</p>
+        <p class="card-text">Graphics card: NVIDIA GeForce MX350</p>
+        <p class="card-text">Display:35.6cm(14")full HD(1920 x 1080) 16:9</p>
+        <p class="card-text">RAM:16 GB, LPDDR4X</p>
+        <p class="card-text">Storage:1 TB SSD</p>
+        <p class="card-text">Colour:Steel Gray and Millennial Pink</p>
+        <p class="card-text">Price(SGD): $2098</p>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+	</br>
+      <img src="./pictures/pavillion14.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+	
+      <div class="card-body">
+	  
+        <h5 class="card-title">HP Pavillion 14</h5>
+        <p class="card-text">Specs:</p>
+        <p class="card-text">Processor:10th Generation Intel®️ Core™️ i3</p>
+        <p class="card-text">Graphics card:Intel HD graphics 520</p>
+        <p class="card-text">Display:14" diagonal FHD IPS anti-glare WLED-backlit touch screen (1920 x 1080).</p>
+        <p class="card-text">RAM:8 GB DDR4-3200 SDRAM (1 x 8 GB)</p>
+        <p class="card-text">Storage:512 GB PCIe®️ NVMe™️ M.2 SSD</p>
+        <p class="card-text">Colour:Natural Silver, Modern Gold, Dragonfly Blue, Cardinal Red, Sport Purple, Blizzard White and Onyx Black</p>
+        <p class="card-text">Price(SGD):$849</p>
+		</br>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>                
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./pictures/mb13.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+      <div class="card-body">
+	  </br>
+        <h5 class="card-title">Huawei Matebook 13</h5>
+        <p class="card-text">Specs:</p>
+        <p class="card-text">Processor:10th Gen Intel®️ Core™️ i5-10210U Processor</p>
+        <p class="card-text">Graphics card:NVIDIA®️ GeForce®️ MX250 Intel®️ UHD Graphics 620</p>
+        <p class="card-text">Display:13 inch IPS 2160x1440,200 PPI light sensor</p>
+        <p class="card-text">RAM:16 GB LPDDR3 2,133 MHz</p>
+        <p class="card-text">Storage:512 GB PCIe SSD</p>
+        <p class="card-text">Colour:Space grey</p>
+        <p class="card-text">Price(SGD):$1598</p>         
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+  <div class="flexbox">
+    <div class="card" style="width: 18rem;">
+	</br>
+      <img src="./pictures/a5.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+      <div class="card-body">
+        <h5 class="card-title">Acer Aspire 5</h5>
+        <p class="card-text">Specs:</p>
+					<p class="card-text">Processor:Intel®️ Core™️ Quad-core</p>
+					<p class="card-text">Graphics card:NVIDIA®️ GeForce®️MX250 with 2 GB dedicated memory</p>
+					<p class="card-text">Display:35.6 cm (14") Full HD (1920 x 1080) 16:9</p>
+					<p class="card-text">RAM:8 GB, DDR4 SDRAM</p>
+					<p class="card-text">Storage:1 TB SSD</p>
+					<p class="card-text">Colour:Black and grey</p>
+					<p class="card-text">Price(SGD):$1398</p>
+            <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+	</br>
+      <img src="./pictures/yoga.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+      <div class="card-body">
+        <h5 class="card-title">Lenovo Yoga C740</h5>
+        <p class="card-text">Specs:</p>
+			  <p class="card-text">Processor: Up to 10th Gen Intel®️ Core™️ i7</p>
+        <p class="card-text">Graphics card:Integrated Intel®️ graphics</p>
+        <p class="card-text">Display:Up to 14″ FHD IPS (1920 x 1080) touchscreen, 300 nits, 72% color gamut</p>
+        <p class="card-text">RAM:Up to 16GB DDR4</p>
+        <p class="card-text">Storage:Up to 1TB PCIe SSD</p>
+        <p class="card-text">Colour:Iron grey and mica</p>
+        <p class="card-text">Price(SGD):$1519</p>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./pictures/ins15.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;"/>
+      <div class="card-body">
+	  </br>
+        <h5 class="card-title">Dell inspirion 15(5593) </h5>
+        <p class="card-text">Specs:</p>
+			  <p class="card-text">Processor:Up to 10th Generation Intel®️ Core™️ i7-1065G7 Processor</p>
+        <p class="card-text">Graphics card:Up to Intel®️ Iris Plus Graphics with shared graphics memory</p>
+        <p class="card-text">Display:15.6-in. display</p>
+        <p class="card-text">RAM:Up to 16GB, 2x8GB, DDR4, 2666MHz</p>
+        <p class="card-text">Storage:Up to 512GB M.2 PCIe NVMe Solid State Drive</p>
+        <p class="card-text">Colour:Sparkling White, Midnight Blue, Fog Night, Matte Gray</p>
+        <p class="card-text">Price(SGD):$1148.99</p>
+		</br>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>	
+  </div>
+  </div>
+  </div>
+</br>
+
+  <div class="filterDiv non">
+  <h4 style="text-align: center; color: #43A047;">Non-budget</h4>
+  <div class="flexbox">
+    <div class="card" style="width: 18rem;">
+	</br>
+      <img src="./pictures/inspiron13.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+      <div class="card-body">
+	  </br>
+        <h5 class="card-title">Dell Inspirion 13 7000</h5>
+        <p class="card-text">Specs:</p>
+				<p class="card-text">Processor:Up to 10th Generation Intel®️ Core™️ i7-10510U Processor</p>
+				<p class="card-text">Graphics card:Intel®️ UHD Graphics with shared graphics memory</p>
+				<p class="card-text">Display:13.3-in. touch display</p>
+				<p class="card-text">RAM:8 GB, LPDDR3, 2133 MHz, Integrated</p>
+				<p class="card-text">Storage:512GB M.2 PCIe NVMe Solid State Drive</p>
+				<p class="card-text">Colour:Pink champaigne and platinum silvers</p>
+				<p class="card-text">Price(SGD):$1698.98</p>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./pictures/mac13jpg.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+    <div class="card-body">
+	</br></br>
+      <h5 class="card-title">Macbook pro 13-inch</h5>
+      <p class="card-text">Specs:</p>
+      <p class="card-text">Processor:2.0GHz quad-core 10th-generation Intel Core i5 processor</p>
+      <p class="card-text">Graphics card:Intel Iris Plus Graphics</p>
+      <p class="card-text">Display:13-inch Retina display with True Tone</p>
+      <p class="card-text">RAM:16GB 3733MHz LPDDR4X memory</p>
+      <p class="card-text">Storage:512GB SSD storage</p>
+      <p class="card-text">Colour:Space grey and silver</p>
+      <p class="card-text">Price(SGD):$2699</p>
+      <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+  </br></br>
+    <img src="./pictures/mpro7.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+      <div class="card-body">
+        <h5 class="card-title">Microsoft Surface Pro 7</h5>
+        <p class="card-text">Specs:</p>
+        <p class="card-text">Processor:	Dual-core 10th Gen Intel®️ Core™️ i3-1005G1 Processor
+                                        Quad-core 10th Gen Intel®️ Core™️ i5-1035G4 Processor
+                                        Quad-core 10th Gen Intel®️ Core™️ i7-1065G7 Processor
+        </p>
+        <p class="card-text">Graphics card:	Intel®️ UHD Graphics (i3)
+                                          Intel®️ Iris™️ Plus Graphics (i5, i7)
+        </p>
+        <p class="card-text">Display:Screen: 12.3” PixelSense™️ Display Resolution: 2736 x 1824 (267 PPI) Aspect ratio: 3:2 Touch: 10 point multi-touch</p>
+        <p class="card-text">RAM:4GB, 8GB, or 16GB LPDDR4x RAM</p>
+        <p class="card-text">Storage:	Solid-state drive (SSD) options: 128GB, 256GB, 512GB or 1TB</p>
+        <p class="card-text">Colour:Platinum and black</p>
+        <p class="card-text">Price(SGD): $1388</p>
+		</br>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+  </div>
+        
+  </div>
+	
+	<div class="flexbox">
+    <div class="card" style="width: 18rem;">
+	</br>
+      <img src="./pictures/7730.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+      <div class="card-body">
+        <h5 class="card-title">Dell Precision 7730</h5>
+        <p class="card-text">Specs:</p>
+				<p class="card-text">Processor: Intel Core i9-8950HK</p>
+				<p class="card-text">Graphics card: Nvidia Quadro P5200</p>
+				<p class="card-text">Display: 17.3” HD+ TN 1600x900 Anti-Glare, non-touch, FHD camera/mic options, 42% color gamut</p>
+				<p class="card-text">RAM: 64GB 2666MHz DDR4 ECC</p>
+				<p class="card-text">Storage: Solid State Drive (SSD): 256GB, 512GB, 512GB SED</p>
+				<p class="card-text">Colour: Black</p>
+				<p class="card-text">Price(SGD): $5530</p>
+        <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+      </div>
+    </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./pictures/x360.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+    <div class="card-body">
+	</br>
+      <h5 class="card-title">HP Spectre X360</h5>
+      <p class="card-text">Specs:</p>
+			<p class="card-text">Processor:8th Generation Intel®️ Core™️ i5 processor</p>
+			<p class="card-text">Graphics card:Intel®️ UHD Graphics 620</p>
+			<p class="card-text">Display:13.3" diagonal FHD IPS micro-edge WLED-backlit touch screen with Corning®️ Gorilla®️ Glass NBT™️ (1920 x 1080)</p>
+			<p class="card-text">RAM:8 GB DDR4-2400 SDRAM</p>
+			<p class="card-text">Storage:256 GB PCIe®️ NVMe™️ M.2 SSD</p>
+			<p class="card-text">Colour:Poseidon blue aluminum</p>
+			<p class="card-text">Price(SGD):$1199.99</p>
+      <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop </a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./pictures/xps.jpg" class="card-img-top" alt="laptop image" style="height:250px; width:auto;">
+    <div class="card-body">
+	</br>
+      <h5 class="card-title">Dell XPS 13</h5>
+      <p class="card-text">Specs:</p>
+      <p class="card-text">Processor: 10th Generation Intel®️ Core™️ i5-1035G1 Processor (6MB Cache, up to 3.6 GHz)</p>
+      <p class="card-text">Graphics card:Intel®️ UHD Graphics with shared graphics memory</p>
+      <p class="card-text">Display:13.4" FHD+ (1920 x 1200) InfinityEdge Non-Touch Anti-Glare 500-Nit Display</p>
+      <p class="card-text">RAM:8GB 3733MHz LPDDR4x Memory Onboard</p>
+      <p class="card-text">Storage:512GB M.2 PCIe NVMe Solid State Drive</p>
+      <p class="card-text">Colour: CNC Machined Aluminum in Platinum Silver</p>
+      <p class="card-text">Price(SGD):$2249</p>
+	  </br>
+      <a href="./checkout.html" class="btn btn-primary" id="alignbtm">Buy this laptop</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+ <script>
+ filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>       
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> 
+
+</body>
+</html>
